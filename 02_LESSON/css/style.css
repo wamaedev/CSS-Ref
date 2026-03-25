@@ -1,0 +1,16 @@
+body {
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  background: papayawhip;
+  color: rgb(255, 0, 0);
+}
+
+p {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  color: lab(32.64% 70.8 -87.88);
+}
+

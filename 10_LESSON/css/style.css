@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+body {
+  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.block {
+  width: 30vw;
+  height: 30vw;
+  background-color: #000;
+  color: white;
+  padding: 1rem;
+}
+
+.left {
+  float: left;
+  margin-right: 1rem;
+}
+
+.right {
+  float: right;
+  margin-left: 1rem;
+}
+
+.clear {
+  clear: both;
+}
+
+section {
+  border: 2px solid #333;
+  background-color: bisque;
+  padding: 1rem;
+
+  /* Using this if you apply float to a container to help the container fill the space.  */
+  /* overflow: auto; */
+  display: flow-root;
+}

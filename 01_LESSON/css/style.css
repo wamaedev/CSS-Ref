@@ -1,0 +1,49 @@
+/* p {
+  font-size: 164px;
+  color: purple;
+} */
+
+/* SELECTORS */
+
+/* UNIVERSAL SELECTOR */
+/* Selects everything */
+
+* {
+  font-family: monospace;
+  /* outline: 2px solid red; */
+}
+
+/* ELEMENT SELECTORS */
+
+body {
+  /* Inheritance - that is where another element inherits properties from it's parent element. */
+  font-size: 22px;
+  
+}
+
+h1, h2 {
+  color: blue;
+}
+
+p {
+  color: purple;
+}
+
+/* CLASS SELECTORS */
+
+.highlight{
+  text-transform: uppercase;
+  background-color: gold;
+}
+
+
+.gray {
+  color: gray;
+}
+
+/* ID SELECTORS */
+/* ID's should only exist once */
+
+#second {
+  font-style: italic;
+}
