@@ -26,7 +26,7 @@
   --SQUARE-SIZE: max(150px, 20vw);
 
   /* GENERAL */
-  --PADDING: 00.5rem;
+  --PADDING: 0.5rem;
   --SHADOWS: 0 6px 5px -5px var(--DARK-COLOR);
   --BORDERS: 2px solid var(--DARK-COLOR);
 }
@@ -37,7 +37,7 @@
     --ALT-BCOLOR: #333;
     --RADIAL-COLOR: #808080;
     --SQUARE-BGCOLOR: #caaeca;
-    
+
   }
 }
 
